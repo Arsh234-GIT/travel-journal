@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Arsh234-GIT/travel-journal.git/static/css/main.b77aaad3.css",
-    "main.js": "/Arsh234-GIT/travel-journal.git/static/js/main.a68c0f12.js",
-    "static/js/787.39019643.chunk.js": "/Arsh234-GIT/travel-journal.git/static/js/787.39019643.chunk.js",
-    "index.html": "/Arsh234-GIT/travel-journal.git/index.html",
-    "main.b77aaad3.css.map": "/Arsh234-GIT/travel-journal.git/static/css/main.b77aaad3.css.map",
-    "main.a68c0f12.js.map": "/Arsh234-GIT/travel-journal.git/static/js/main.a68c0f12.js.map",
-    "787.39019643.chunk.js.map": "/Arsh234-GIT/travel-journal.git/static/js/787.39019643.chunk.js.map"
+    "main.css": "/travel-journal/static/css/main.b77aaad3.css",
+    "main.js": "/travel-journal/static/js/main.f0bfa2cd.js",
+    "static/js/787.39019643.chunk.js": "/travel-journal/static/js/787.39019643.chunk.js",
+    "index.html": "/travel-journal/index.html",
+    "main.b77aaad3.css.map": "/travel-journal/static/css/main.b77aaad3.css.map",
+    "main.f0bfa2cd.js.map": "/travel-journal/static/js/main.f0bfa2cd.js.map",
+    "787.39019643.chunk.js.map": "/travel-journal/static/js/787.39019643.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b77aaad3.css",
-    "static/js/main.a68c0f12.js"
+    "static/js/main.f0bfa2cd.js"
   ]
 }
