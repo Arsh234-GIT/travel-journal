@@ -36,3 +36,138 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container{
+  
+  width: 550px;
+  margin-left: 400px;
+  border: 1px solid green;
+ 
+}
+.nav-container{
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  align-items: center;
+ background-color: rgb(255, 83,68);
+
+
+}
+
+
+ 
+
+
+.nav-logo{
+  height: 24px;
+  width: 24px;
+ filter: invert(1);
+
+}
+.nav-p{
+  font-size: 13px;
+  margin-left: 7px;
+  
+  color: white;
+ 
+
+}
+
+.place-container{
+  width: 471px;
+  height: 168px;
+  
+  margin: 39px auto;
+  border-radius: 6px;
+  display:flex
+  
+}
+.right-container{
+  
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 17px;
+  
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  
+}
+.image-location{
+  height: 10px;
+  margin-top: 3px;
+}
+.loc-name{
+  font-size: 10px;
+  color: #2B283A;
+  margin-left: 3px;
+  margin-bottom: 2px;
+  margin-top: 3px;
+  
+ 
+
+}
+.map-link{
+
+font-size: 10px;
+margin-left: 14px;
+color: #918E9B;
+margin-top: 0px;
+
+
+}
+.heading-part{
+  display: flex;
+  
+  height: 35px;
+  align-items: center;
+  
+  
+  
+
+}
+.font-mount{
+
+}
+.content-part{
+  
+  
+  width: 319px;
+
+}
+
+.dates{
+
+  
+  color: #2B283A;
+  
+  margin-top: 15px;
+  
+  
+  
+font-size: 10px;
+
+
+
+}
+.description{
+  
+  
+  color: #2B283A;
+font-size: 10px;
+width: 326px;
+height: 45px;
+line-height: 15.6px;
+margin-top: 10px;
+
+
+
+}
+.image-fuji{
+  width: 126px;
+  height: 168px;
+  border-radius: 5px;
+  
+}

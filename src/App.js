@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from "./components/Navbar";
+import Boxes from "./components/Boxes";
+import Data from "./Data";
+
+class App extends Component {
+  render() {
+    const boxes = Data.map(place=>(
+      <Boxes
+         key={place.id}
+         title={place.title}
+         locat={place.location}
+         Googlemap={place. googleMapsUrl}
+         sdate={place.startDate}
+         edate={place.endDate}
+         description={place.description}
+         image={place.imageUrl}
+
+
+      />
+    
+    ));
+    return (
+      <div className='react-container'>
+        <div className='app-container'>
+          <Navbar />
+          <section className='box-list'>
+            {boxes}
+          </section>
+        
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
