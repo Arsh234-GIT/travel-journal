@@ -8,7 +8,7 @@ class Navbar extends Component {
 
             <div className="nav-container">
                 
-                <img className="nav-logo" src="../Images/WORLD.png"/>
+                <img className="nav-logo" src="../travel-journal/Images/WORLD.png"/>
                 <p className="nav-p"> my travel journal.</p>
             
                 
