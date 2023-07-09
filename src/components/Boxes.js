@@ -13,7 +13,7 @@ const Boxes = (props)=>{
                 </div>
                 <div className="right-container">
                     <div className="location">
-                    <img className="image-location"  src="../Images/placeholder.png"/>
+                    <img className="image-location"  src="../Images/PLACEHOLDER.png"/>
                     <span className="loc-name">{props.locat}</span>
                     <a className="map-link" href={props.Googlemap}>view on Google Maps</a>
 
